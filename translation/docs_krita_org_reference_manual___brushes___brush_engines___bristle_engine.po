@@ -17,28 +17,28 @@ msgstr ""
 #. +> trunk5
 #: ../../<generated>:1
 msgid "Weighted saturation"
-msgstr ""
+msgstr "加重飽和"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:1
 msgid "The Bristle Brush Engine manual page."
-msgstr ""
+msgstr "毛筆ブラシエンジンのマニュアルページ。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:13
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:18
 msgid "Bristle Brush Engine"
-msgstr ""
+msgstr "毛筆ブラシエンジン"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:13
 msgid "Brush Engine"
-msgstr ""
+msgstr "ブラシエンジン"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:13
 msgid "Hairy Brush Engine"
-msgstr ""
+msgstr "毛筆ブラシエンジン"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:13
@@ -55,41 +55,42 @@ msgstr ""
 msgid ""
 "A brush intended to mimic real-life brushes by drawing the trails of their "
 "lines or bristles."
-msgstr ""
+msgstr "ブラシは現実のブラシの線や毛先の描く軌跡を模倣するよう設計されています．"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:25
 msgid "Brush Tip"
-msgstr ""
+msgstr "ブラシの先端"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:27
 msgid "Simply put:"
-msgstr ""
+msgstr "要約： "
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:29
 msgid "The brush tip defines the areas with bristles in them."
-msgstr ""
+msgstr "ブラシの先端は、毛のある領域を定義します。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:30
 msgid ""
 "Lower opacity areas have lower-opacity bristles. With this brush, this may "
 "give the illusion that lower-opacity areas have fewer bristles."
-msgstr ""
+msgstr "透明度の低い領域は，透明度の低い描画となります．このブラシは，"
+"透明度の低い領域では少ない毛束で描いたかのような効果を与えます"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:31
 msgid ""
 "The :ref:`option_size` and :ref:`option_rotation` dynamics affect the brush "
 "tip, not the bristles."
-msgstr ""
+msgstr ":ref:`option_size` 及び :ref:`option_rotation` は毛筆そのものではなく毛先に直接影響します。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:33
 msgid "You can:"
-msgstr ""
+msgstr "できること："
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:35
@@ -98,14 +99,17 @@ msgid ""
 "shapes will draw more slowly though, while the effects aren't always visible "
 "(since in the end, you're passing over an area with a certain number of "
 "bristles)."
-msgstr ""
+msgstr "異なる効果を得るためには異なる形状のブラシを使用してください．ブラシ形状が複雑であるほど"
+"ブラシ効果は常に可視であるわけではなく，描画に期間がかかることに気づくと思います．"
+"つまるところ，ある回数分のの数だけ領域に塗り重ねることが"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:36
 msgid ""
 "To decrease bristle density, you can also just use an autobrush and decrease "
 "the brush tip's density, or increase its randomness."
-msgstr ""
+msgstr "毛筆ブラシの密度を小さくするには，オートブラシ機能を使うことで、"
+"筆先の密度をランダムに小さくしたり大きくしたりすることができます。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:39
@@ -115,12 +119,12 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:41
 msgid "Bristle Options"
-msgstr ""
+msgstr "毛筆オプション"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:43
 msgid "The core of this particular brush-engine."
-msgstr ""
+msgstr "毛筆ブラシエンジンのコア"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:46
@@ -146,14 +150,14 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:50
 msgid "Scale"
-msgstr ""
+msgstr "大きさ"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:50
 msgid ""
 "Negative values have the same effect as corresponding positive values: -1.00 "
 "will look like 1.00, etc."
-msgstr ""
+msgstr "負の数値は対応する正の数値と同じ効果を持ちます。例として、-1.00は1.00とみなされます。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:53
@@ -163,12 +167,12 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:55
 msgid "At 0.00, all the bristles basically remain completely parallel."
-msgstr ""
+msgstr "0.00では、全ての毛筆は基本的に完全に平行に保たれます。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
 msgid "Random Offset"
-msgstr ""
+msgstr "ランダム・オフセット"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
@@ -176,17 +180,19 @@ msgid ""
 "At other values, the bristles are offset randomly. Large values will "
 "increase the brush size a bit because of the bristles spreading around, but "
 "not by much."
-msgstr ""
+msgstr "その他の値では，ブラシはランダムなオフセットを持ちます。大きな値では"
+"毛先の大きさが広がることで、わずかにブラシサイズは大きくなります。"
+"あまり大きくはなりません。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:57
 msgid "Negative values have the same effect as corresponding positive values."
-msgstr ""
+msgstr "負の数値は対応する正の数値と同じ効果を持ちます。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:58
 msgid "Shear"
-msgstr ""
+msgstr "剪断"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:59
@@ -194,11 +200,13 @@ msgid ""
 "Shear introduces an angle to your brush, as though you're drawing with an "
 "oval brush (or the side of a round brush)."
 msgstr ""
+"剪断は，楕円形のブラシあるいは円形ブラシの側面で描いているかのように"
+"ブラシに角度をつけます"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:61
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:61
@@ -207,6 +215,9 @@ msgid ""
 "expands or compresses them into a denser area, whereas density takes a fixed "
 "area and determines the number of bristles in it. See the difference?"
 msgstr ""
+"毛筆密度を操作します．スケールは毛先全体を操作することで"
+"描画領域をより密なものに圧縮あるいは拡大する一方、密度は"
+"固定領域内の毛の量を操作します。違いがわかりますか？"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:64
@@ -219,18 +230,22 @@ msgid ""
 "This one maps \"Scale\" to mouse speed, thus simulating pressure with a "
 "graphics tablet!"
 msgstr ""
+"マウス速度に\"スケール\"機能を対応づけるために、グラフィックタブレットで"
+"圧力をシミュレートします。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
 msgid "Mouse Pressure"
-msgstr ""
+msgstr "描く速度による描線の太さの変化"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
 msgid ""
 "Rather, it uses the \"distance between two events\" to determine scale. "
 "Faster drawing, larger distances."
-msgstr ""
+msgstr""
+"スケールの決定には\"２つのイベント間の距離\"を使用しています．"
+"より高速に描画するほど，距離は大きくなります。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:69
@@ -239,11 +254,13 @@ msgid ""
 "opacity, rotation etc.) so you still have to map those independently to "
 "something else."
 msgstr ""
+"これは他の操作による圧力入力には影響を与えない（サイズ，透明度，回転など）ので、"
+"これらに関しては個別に対応づける必要があります。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:70
 msgid "Threshold"
-msgstr ""
+msgstr "しきい値"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:71
@@ -251,31 +268,33 @@ msgid ""
 "This is a tablet feature. When you turn this on, only bristles that are able "
 "to \"touch the canvas\" will be painted."
 msgstr ""
+"これはタブレットの機能です．機能を有効にすると，"
+"\"キャンバスに触れている\"毛筆線だけが描かれます。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:72
 msgid "Connect Hairs"
-msgstr ""
+msgstr "毛を接続"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:73
 msgid "The bristles get connected. See for yourself."
-msgstr ""
+msgstr "毛筆で描いた線が繋がります．自分の目で確かめてみてください。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:74
 msgid "Anti-Aliasing"
-msgstr ""
+msgstr "アンチエイリアシング"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:75
 msgid "This will decrease the jaggy-ness of the lines."
-msgstr ""
+msgstr "線のジャギーを軽減します"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:77
 msgid "Composite Bristles"
-msgstr ""
+msgstr "毛先を合成する"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:77
@@ -283,6 +302,8 @@ msgid ""
 "This \"composes the bristle colors within one dab,\" but explains that the "
 "effect is \"probably subtle\"."
 msgstr ""
+"毛の色を一つの描画点で縫製しますが、"
+"その効果は微妙であると説明されています。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:80
@@ -292,34 +313,35 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:82
 msgid "Ink Depletion"
-msgstr ""
+msgstr "筆のかすれ"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:84
 msgid ""
 "This simulated ink depletion over drawing time. The value dictates how long "
 "it will take. The curve dictates the speed."
-msgstr ""
+msgstr "描画時間によって筆のかすれをシミュレートします。かすれ度の値は"
+"描画に要した時間から探索されます。曲線の場合は速度から探索します。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:86
 msgid "Opacity"
-msgstr ""
+msgstr "不透明度"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:87
 msgid "The brush will go transparent to simulate ink-depletion."
-msgstr ""
+msgstr "ブラシは透明になり，インクのかすれをシミュレートします。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:89
 msgid "The brush will be desaturated to simulate ink-depletion."
-msgstr ""
+msgstr "ブラシの彩度を下げることでインクのかすれをシミュレートします。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:91
 msgid "Saturation"
-msgstr ""
+msgstr "彩度"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:94
@@ -331,6 +353,7 @@ msgid ""
 "brush is made up of independent bristles, you can basically take on several "
 "colors at the same time."
 msgstr ""
+""
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:98
@@ -343,12 +366,12 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:99
 msgid "When the source is transparent, the bristles take black color."
-msgstr ""
+msgstr "色のソースが透明の場合、筆の色は黒になります。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:104
 msgid "Soak Ink"
-msgstr ""
+msgstr "インクを混色"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:104
@@ -368,22 +391,22 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:109
 msgid "Pressure weight"
-msgstr ""
+msgstr "圧力の度合い"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:110
 msgid "Bristle length weight"
-msgstr ""
+msgstr "毛の長さの度合い"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:111
 msgid "Bristle ink amount weight"
-msgstr ""
+msgstr "毛のインク量の度合い"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:112
 msgid "Ink depletion curve weight"
-msgstr ""
+msgstr "カーブでのインク枯渇度"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:0
