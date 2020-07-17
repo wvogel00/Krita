@@ -260,7 +260,7 @@ msgstr "描く速度による描線の太さの変化"
 msgid ""
 "Rather, it uses the \"distance between two events\" to determine scale. "
 "Faster drawing, larger distances."
-msgstr""
+msgstr ""
 "スケールの決定には\"２つのマウスイベント間の距離\"を使用しています。"
 "より高速に描画するほど、距離は大きくなります。"
 
@@ -418,7 +418,7 @@ msgstr ""
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:107
 msgid "Works by modifying the saturation with the following:"
-msgstr "次のような彩度を変更することで機能します。"
+msgstr "次のように彩度を変更することで機能します。"
 
 #. +> trunk5
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:109
