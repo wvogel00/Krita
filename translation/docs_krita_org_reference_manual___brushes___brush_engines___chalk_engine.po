@@ -55,7 +55,7 @@ msgid ""
 "doesn't do much. For the sake of description, here's what it does:"
 msgstr ""
 "ですので、チョークブラシはアルゴリズムデモンストレーションを目的としています。"
-"チョークブラシの存在域を見出すために睡眠時間を削らないでください、本当に"
+"チョークブラシの存在意義を見出すために睡眠時間を削らないでください、本当に"
 "ただそれだけのものです。説明のために、次のようにします。"
 
 #: ../../reference_manual/brushes/brush_engines/chalk_engine.rst:29
