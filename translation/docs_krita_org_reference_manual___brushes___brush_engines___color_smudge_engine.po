@@ -22,24 +22,24 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:1
 msgid "The Color Smudge Brush Engine manual page."
-msgstr ""
+msgstr "色ぼかしブラシエンジンのマニュアルページ"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:18
 msgid "Color Smudge Brush Engine"
-msgstr ""
+msgstr "色ぼかしブラシエンジン"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
 msgid "Brush Engine"
-msgstr ""
+msgstr "ブラシエンジン"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
 msgid "Color Mixing"
-msgstr ""
+msgstr "混色"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
 msgid "Smudge"
-msgstr ""
+msgstr "ぼかし"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:22
 msgid ".. image:: images/icons/colorsmudge.svg"
@@ -50,10 +50,12 @@ msgid ""
 "The Color Smudge Brush is a brush engine that allows you to mix colors by "
 "smearing or dulling. A very powerful brush engine to the painter."
 msgstr ""
+"色ぼかしブラシは滲ませたりくすませたりすることで色を混ぜることを"
+"可能にするブラシです。絵描きにとってはとても強力なブラシです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:26
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:29
 msgid ":ref:`option_brush_tip`"
@@ -105,17 +107,19 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:44
 msgid "Options Unique to the Color Smudge Brush"
-msgstr ""
+msgstr "色ぼかしブラシの独特なオプション"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:49
 msgid "Color Rate"
-msgstr ""
+msgstr "描画色の割合"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:51
 msgid ""
 "How much of the foreground color is added to the smudging mix. Works "
 "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`."
 msgstr ""
+"色ぼかしされる描画色の割合を指します。"
+" :ref:`option_smudge_length` と :ref:`option_smudge_radius` と連携して機能します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_colorrate_04.png"
@@ -124,15 +128,15 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:58
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:115
 msgid "Smudge Length"
-msgstr ""
+msgstr "混色の持続"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:60
 msgid "Affects smudging and allows you to set it to Sensors."
-msgstr ""
+msgstr "ぼかしに影響し、センサーに設定できます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:62
 msgid "There are two major types:"
-msgstr ""
+msgstr "主要な2つのタイプを示します："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:65
 msgid ".. image:: images/brushes/Krita_2.9_brush_engine_smudge_length_03.png"
@@ -140,25 +144,26 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:66
 msgid "Smearing"
-msgstr ""
+msgstr "色をのばす"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:67
 msgid "Great for making brushes that have a very impasto oil feel to them."
-msgstr ""
+msgstr "非常にオイル感のあるブラシを作るのに最適です。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:69
 msgid "Dulling"
-msgstr ""
+msgstr "混色して描画"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:69
 msgid "Named so because it dulls strong colors."
-msgstr ""
+msgstr "強い色を混色させることからこのように名付けられました。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:71
 msgid ""
 "Using an arithmetic blending type, Dulling is great for more smooth type of "
 "painting."
 msgstr ""
+"算術的合成タイプを使うことで、より滑らかな描画に適した混色となります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:74
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_01.png"
@@ -166,7 +171,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:76
 msgid "Strength"
-msgstr ""
+msgstr "強度"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:76
 msgid ""
@@ -174,6 +179,9 @@ msgid ""
 "This means that smudge-length at 1.0 will never decrease, but smudge-lengths "
 "under that will decrease based on spacing and opacity/flow."
 msgstr ""
+"直前の描点から伸びる混色する長さに影響します。"
+"1.0に設定した時の混色の持続する長さは減ることはなく、"
+"不透明度や流量、間隔によって減らせることを意味しています。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:79
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_02.png"
@@ -181,19 +189,23 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:83
 msgid "Smudge Radius"
-msgstr ""
+msgstr "混色範囲の半径"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:85
 msgid ""
 "The :guilabel:`Smudge Radius` allows you to sample a larger radius when "
 "using smudge-length in :guilabel:`Dulling` mode."
 msgstr ""
+":guilabel:`混色範囲の半径` は :guilabel:`混色して描画` モードで混色の持続設定を"
+"使用する時に、より大きい半径で混色することを可能にします。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:87
 msgid ""
 "The slider is percentage of the brush-size. You can have it modified with :"
 "guilabel:`Sensors`."
 msgstr ""
+"スライダーはブラシサイズのパーセンテージを示します。guilabel:`センサー`"
+"から修正できます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:90
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_radius_01.png"
@@ -201,7 +213,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:92
 msgid "Overlay"
-msgstr ""
+msgstr "オーバーレイ"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:94
 msgid ""
