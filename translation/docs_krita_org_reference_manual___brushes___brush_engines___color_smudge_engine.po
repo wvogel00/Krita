@@ -220,42 +220,48 @@ msgid ""
 "Overlay is a toggle that determine whether or not the smudge brush will "
 "sample all layers (overlay on), or only the current one."
 msgstr ""
+"オーバーレイは色ぼかしブラシが現在のレイヤーのみを対象とするか、"
+"あるいは全レイヤーを対象とするか（オーバーレイ：オン）を決定するトグルです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:97
 msgid "Tutorial: Color Smudge Brushes"
-msgstr ""
+msgstr "チュートリアル：色ぼかしブラシ"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:99
 msgid ""
 "I recommend at least skimming over the first part to get an idea of what "
 "does what."
 msgstr ""
+"何がどう動作しているのかを理解するために、最初の部分は読み飛ばすことをお勧めします。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:102
 msgid "Overview and settings"
-msgstr ""
+msgstr "キャンバスビューと設定"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:105
 msgid "Overview: Smearing and Dulling"
-msgstr ""
+msgstr "キャンバスビュー：のばしと混色"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:107
 msgid ""
 "The Color Smudge Brush offers 2 modes, accessible from the :guilabel:`Smudge "
 "Rate` section:"
 msgstr ""
+"色ぼかしブラシは２種類のモードを提供しており、:guilabel:`ぼかし半径`の章"
+"からアクセスできます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:109
 msgid ""
 "Smearing: This mode mixes colors by smudging (\"smearing\") the area "
 "underneath."
-msgstr ""
+msgstr "色のばし：下の領域をぼかす（色をのばす）ことによって混色するモードです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:110
 msgid ""
 "Dulling: In his mode, the brush \"picks up\" the color underneath it, mixes "
 "it with its own color, then paints with it."
 msgstr ""
+"混色：下の領域の色を拾い上げ、ブラシ自身のもつ色と混合して描画するモードです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:113
 msgid ".. image:: images/brushes/Krita-tutorial5-I.1.png"
@@ -265,7 +271,7 @@ msgstr ""
 msgid ""
 "To better demonstrate the smudge function, I turned the color rate function "
 "off."
-msgstr ""
+msgstr "より良い混色機能のデモンストレーションのために、描画色の割合機能をオフにしています。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:120
 msgid ".. image:: images/brushes/Krita-tutorial5-I.2.png"
@@ -273,22 +279,25 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:121
 msgid "Common behaviors:"
-msgstr ""
+msgstr "共通動作："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:123
 msgid ""
 "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)."
 msgstr ""
+"ぼかし半径の機能のチェックを外すと、ぼかし半径は1.00に設定されます。（0.00ではありません）"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:124
 msgid ""
 "Opacity: Below 0.50, there is practically no smudging left: keep opacity "
 "over 0.50."
 msgstr ""
+"不透明度：0.50以下では、不透明度はぼかしはほとんど効きません。"
+"0.50以上に設定してください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:126
 msgid "Differences:"
-msgstr ""
+msgstr "違い："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:128
 msgid ""
@@ -297,6 +306,11 @@ msgid ""
 "Spacing affects the length of the smudge trail, but to a much lesser extent. "
 "The \"strength\" of the effect remains more or less the same however."
 msgstr ""
+"間隔と色のばし：間隔が小さいほど効果は滑らかになるため、円形ブラシで"
+"色のばしを使うときは値を0.05以下に設定すると良いでしょう。"
+"間隔はぼかし軌跡の長さに影響しますが、程度はかなり小さいです。"
+"しかしながら、効果の\"強さ\"は同程度残ります。"
+
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:129
 msgid ""
@@ -305,6 +319,11 @@ msgid ""
 "picks up a color and never lets go of it). The length of the effect is also "
 "affected."
 msgstr ""
+"感覚と
+"間隔と混色：間隔が小さいほど、効果は強くなります：　"
+"間隔を小さくしすぎると混色効果が強くなりすぎます。（"
+"拾った色を決して手放しません）効果の長さには"
+"影響します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:130
 msgid ""
@@ -312,16 +331,20 @@ msgid ""
 "Dulling, the brush shape is preserved. Instead the trail determines how fast "
 "the color it picked up is dropped off."
 msgstr ""
+"色のばし・混色どちらもぼかされた\"混色された軌跡\"を持ちますが、混色の場合には、"
+"ブラシ形状は保持されます。代わりに、混色された軌跡が拾った色を"
+"手放す速さを決定します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:133
 msgid ""
 "The other settings should be pretty obvious from the pictures, so I'll spare "
 "you some walls of text."
 msgstr ""
+"その他の設定は画像からかなり明らかな筈ですので、テキストの壁をいくつか割愛します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:136
 msgid "Color Rate, Gradient and Blending modes"
-msgstr ""
+msgstr "描画色の割合、グラデーションと合成モード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:139
 msgid ".. image:: images/brushes/Krita-tutorial5-I.3.png"
@@ -332,15 +355,18 @@ msgid ""
 "Again, most of the settings behaviors should be obvious from the pictures. "
 "Just remember to keep :guilabel:`Opacity` over 0.50."
 msgstr ""
+"繰り返しますが、多くの設定の挙動は画像から明らかな筈です。"
+":guilabel:`不透明度`を0.50以上にすることを頭に入れておいてください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:143
 msgid "Brush tips"
-msgstr ""
+msgstr "ブラシ形状"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:145
 msgid ""
 "The Color Smudge Brush has all the same brush tip options as the Pixel Brush!"
 msgstr ""
+"色ぼかしブラシはピクセルブラシと完全に同一のブラシ形状オプションを有しています！"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:148
 msgid ".. image:: images/brushes/Krita-tutorial5-I.4.png"
@@ -352,16 +378,22 @@ msgid ""
 "is lower, so for low-opacity brush tips, increase the opacity and smudge/"
 "color rates."
 msgstr ""
+"ぼかし効果はブラシの不透明度が低いと弱くなるので、"
+"不透明度の低いブラシでは不透明度とぼかし半径と描画色の割合"
+"を高くしてください。"
+
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:152
 msgid "Scatter and other shape dynamics"
-msgstr ""
+msgstr "散布とその他の粒子の形状の変化"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:154
 msgid ""
 "The Color Smudge Brush shares the following dynamics with the Pixel Brush: "
 "Opacity, Size, Spacing, Rotation, and Scatter."
 msgstr ""
+"色ぼかしブラシは次のダイナミクスをピクセルブラシと共有しています："
+"不透明度・拡大縮小・間隔・回転・散布"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:156
 msgid ""
@@ -369,6 +401,9 @@ msgid ""
 "the Pixel Brush. In particular, the Scatter option becomes much more "
 "significant."
 msgstr ""
+"しかしながら、ぼかし効果のために、描画結果は"
+"ピクセルブラシとは異なります。特に、散布"
+"オプションはとても重要です。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:159
 msgid ".. image:: images/brushes/Krita-tutorial5-I.5-1.png"
@@ -376,7 +411,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:160
 msgid "A few things to note:"
-msgstr ""
+msgstr "特記することはわずかです："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:162
 msgid ""
@@ -384,18 +419,25 @@ msgid ""
 "of 5.00 for a tiny round brush, but for bigger brushes, you may want to get "
 "it down to 0.50 or less."
 msgstr ""
+"粒子の散らばり度はブラシサイズに比例します。散布を使うときは"
+"極小円形ブラシで値を5.00にしても良いですが、"
+"ブラシサイズが大きくなるにつれ、0.50以下に下げることが必要となります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:163
 msgid ""
 "You may notice the lines with the :guilabel:`Smearing` option. Those are "
 "caused by the fact that it picked up the hard lines of the rectangle."
 msgstr ""
+":guilabel:`色のばし`オプションで描いた線だと分かるでしょう。これは、"
+"ブラシが長方形のしっかりとした線の色を拾い上げたという事実による結果です。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:164
 msgid ""
 "For scattering, the brush picks up colors within a certain distance, not the "
 "color directly under the paintbrush:"
 msgstr ""
+"散布では、ブラシ直下の色を直接拾うのではなく、"
+"ある距離離れたところから色を拾います。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:167
 msgid ".. image:: images/brushes/Krita-tutorial5-I.5-2.png"
@@ -403,11 +445,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:169
 msgid "Other color behaviors: Gradient, Blending modes, Overlay mode"
-msgstr ""
+msgstr "その他の色に関する挙動：グラデーション・合成モード・オーバーレイモード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:172
 msgid "Gradient"
-msgstr ""
+msgstr "グラデーション"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:174
 msgid ""
@@ -415,6 +457,9 @@ msgid ""
 "menuselection:`Color --> Mix` for the Pixel brush: the color will vary "
 "between the colors of the gradient."
 msgstr ""
+"グラデーションは、プクせるブラシの :menuselection:`色のソース --> グラデーション` あるいは"
+":menuselection:`色 --> 色を混ぜる` と同等です。"
+"グラデーションの色の間で変化します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:177
 msgid ".. image:: images/brushes/Krita-tutorial5-I.6-1.png"
@@ -422,41 +467,47 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:178
 msgid "You can either:"
-msgstr ""
+msgstr "いずれかを選べます"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:180
 msgid ""
 "Leave the default :menuselection:`Foreground --> Background gradient` "
 "setting, and just change the foreground and background colors"
 msgstr ""
+":menuselection:`描画色 --> 背景色グラデーション` のデフォルト設定のままで、"
+"前景色・背景色だけを変更"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:181
 msgid "Select a more specific gradient"
-msgstr ""
+msgstr "より特殊なグラデーションを選択"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:182
 msgid "Or make custom gradients."
-msgstr ""
+msgstr "カスタムグラデーションを作成"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:185
 msgid "Blending Modes"
-msgstr ""
+msgstr "合成モード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:187
 msgid ""
 "Blending Modes work just like with the Pixel Brush. The color used though is "
 "the color from Color rate."
 msgstr ""
+"合成モードはピクセルブラシの場合と同様に機能します。ただ、使用される色は"
+"描画色の割合による色です。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:189
 msgid ""
 "Color Blending modes with the smudge brush are even harder to predict than "
 "with the pixel brush, so I'll leave you to experiment on your own."
 msgstr ""
+"色ぼかしブラシでの合成モードはピクセルブラシよりも予想が困難なので、"
+"自身で体験してみてください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:192
 msgid "Overlay Mode"
-msgstr ""
+msgstr "オーバーレイモード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:194
 msgid ""
@@ -464,6 +515,9 @@ msgid ""
 "is on. However, if you want it to take color information from all the "
 "layers, you can turn on the Overlay mode."
 msgstr ""
+"デフォルトでは、色ぼかしブラシは今書いていレイヤーの色情報を"
+"参照しますが、全てのレイヤーの色情報を参照したい場合には、"
+"合成モードをオンにすることが出来ます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:196
 msgid ""
@@ -471,40 +525,46 @@ msgid ""
 "underneath, which may mess up your drawing if you later make changes to the "
 "layer underneath."
 msgstr ""
+"しかし、下にあるレイヤーから\"拾い上げる\"ことに注意してください。"
+"後から下にあるレイヤーに変更を加えると"
+"絵がめちゃめちゃになってしまうかもしれません。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:199
 msgid "Use cases: Smudging and blending"
-msgstr ""
+msgstr "使用例：混色と合成"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:201
 msgid "This part describes use cases with color rate off."
-msgstr ""
+msgstr "ここでは、描画色の割合をオフにした使用例で説明します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:203
 msgid ""
 "I won't explain the settings for dynamics in detail, as you can find the "
 "explanations in the :ref:`Pixel Brush tutorial <pixel_brush_engine>`."
 msgstr ""
+"設定の詳細な説明はしませんが、"
+":ref:`ピクセルブラシチュートリアル <pixel_brush_engine>`で見つけることが出来ます。"
+
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:206
 msgid "Smudging effects"
-msgstr ""
+msgstr "ぼかし効果"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:208
 msgid "For simple smudging:"
-msgstr ""
+msgstr "シンプルなぼかし"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:210
 msgid "Pick the Color Smudge Brush. You can use either Smearing or Dulling."
-msgstr ""
+msgstr "色ぼかしブラシで、色のばしか混色を使うことが出来ます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:212
 msgid "Turn off Color Rate"
-msgstr ""
+msgstr "描画色の割合をオフにする"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:214
 msgid "Smudge away"
-msgstr ""
+msgstr "ぼかす"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:217
 msgid ".. image:: images/brushes/Krita-tutorial5-II.2.png"
@@ -516,10 +576,13 @@ msgid ""
 "visible effects by increasing both :guilabel:`Smudge Rate` and :guilabel:"
 "`Opacity`, if necessary to maximum."
 msgstr ""
+"不透明度の低いブラシを使うときは、:guilabel:`ぼかし半径` と"
+" :guilabel:`不透明度` を必要に応じて最大まで上げて目に見えにくい効果を"
+"\"補償\"することを記憶に留めてください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:221
 msgid "Some settings for Smearing"
-msgstr ""
+msgstr "色のばしに関するいくつかの設定"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:223
 msgid ""
@@ -527,16 +590,20 @@ msgid ""
 "proportional to brush tip size. For a small round brush, 0.10 spacing is "
 "fine, but for mid-sized and large brushes, decrease spacing to 0.05 or less."
 msgstr ""
+"滑らかに伸ばすためには間隔を減らしてください。間隔は"
+"ブラシサイズと比例関係にあることを記憶に留めてください。小さい円形ブラシでは、0.10の"
+"間隔で良くとも、注程度サイズ以上のブラシでは間隔を0.05以下に減らしてください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:226
 msgid "Some settings for Dulling"
-msgstr ""
+msgstr "混色に関するいくつかの設定"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:228
 msgid ""
 "Lowering the spacing will also make the smudging effect stronger, so find a "
 "right balance. 0.10 for most mid-sized round brushes should be fine."
-msgstr ""
+msgstr "間隔を減らすほどぼかし効果は強くなるため、適切なバランスを見つけてください。"
+"ほとんどの中程度サイズの円形ブラシで値を0.10すれば問題ありません。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:229
 msgid ""
@@ -544,10 +611,13 @@ msgid ""
 "\"fade off\" in size like Smearing brushes do. You can mimic that effect "
 "through the simple size fade dynamic."
 msgstr ""
+"色のばしと違って、混色はブラシ形状・大きさを保持するので、"
+"色のばしブラシのようなブラシサイズをフェードオフする挙動はしません。似たような効果は"
+"シンプルサイズフェードダイナミクスで得られます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:232
 msgid "Textured blending"
-msgstr ""
+msgstr "テクスチャ合成"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:234
 msgid ""
