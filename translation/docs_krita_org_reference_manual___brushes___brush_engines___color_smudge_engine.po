@@ -247,7 +247,7 @@ msgid ""
 "The Color Smudge Brush offers 2 modes, accessible from the :guilabel:`Smudge "
 "Rate` section:"
 msgstr ""
-"色ぼかしブラシは２種類のモードを提供しており、:guilabel:`ぼかし半径`の章"
+"色ぼかしブラシは２種類のモードを提供しており、:guilabel:`ぼかし半径`のセクション"
 "からアクセスできます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:109
@@ -419,7 +419,7 @@ msgid ""
 "of 5.00 for a tiny round brush, but for bigger brushes, you may want to get "
 "it down to 0.50 or less."
 msgstr ""
-"粒子の散らばり度はブラシサイズに比例します。散布を使うときは"
+"散布度はブラシサイズに比例します。散布を使うときは"
 "極小円形ブラシで値を5.00にしても良いですが、"
 "ブラシサイズが大きくなるにつれ、0.50以下に下げることが必要となります。"
 
@@ -592,7 +592,7 @@ msgid ""
 msgstr ""
 "滑らかに伸ばすためには間隔を減らしてください。間隔は"
 "ブラシサイズと比例関係にあることを記憶に留めてください。小さい円形ブラシでは、0.10の"
-"間隔で良くとも、注程度サイズ以上のブラシでは間隔を0.05以下に減らしてください。"
+"間隔で良くとも、中程度サイズ以上のブラシでは間隔を0.05以下に減らしてください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:226
 msgid "Some settings for Dulling"
@@ -624,26 +624,32 @@ msgid ""
 "In this case, what I refer to as \"Blending\" here is simply using one of "
 "the following two dynamics:"
 msgstr ""
+"ここで\"合成\"と呼んでいるものは、単に次の2つのダイナミクスの"
+"うちの一つを使うことです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:236
 msgid ":guilabel:`Rotation` set to :guilabel:`Distance` or :guilabel:`Fuzzy`"
-msgstr ""
+msgstr ":guilabel:`回転` を:guilabel:`距離`あるいは:guilabel:`ファジー` に設定する。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:239
 msgid ""
 "For most mid-sized brushes you will probably want to lower the scatter rate "
 "to 0.50 or lower. Higher settings are okay for tiny brushes."
 msgstr ""
+"ほとんどの中程度のサイズのブラシで、おそらく散布率を0.50以下にする必要があります。"
+"極小ブラシでは値を大きく設定して問題ありません。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
 msgid "And/or Scatter:"
-msgstr ""
+msgstr "積/和　散布"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
 msgid ""
 "Note that Scatter picks colors within a certain distance, not the color "
 "directly under the brush (see :ref:`option_brush_tip`)."
 msgstr ""
+"散布はブラシ直下の色を拾うのではなく、ある距離離れたところから"
+"色を拾うことを覚えていてください。（:ref:`option_brush_tip`）"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:242
 msgid ""
@@ -652,28 +658,35 @@ msgid ""
 "method of \"smooth\" blending. To blend smoothly, you'll have better luck "
 "with:"
 msgstr ""
+"オプション：拡大縮小やその他のダイナミクスを重ねることでブラシ形状を変化させます。実際、"
+"色ぼかしブラシはぼやけたブラシではないため、混色は\"滑らかな\合成には"
+"あまり向いていません。滑らかに合成するには、次の方法でうまくいくでしょう。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:243
 msgid ""
 "Building up the transition by painting with intermediate values, described "
 "later"
-msgstr ""
+msgstr "後述する中間値でトランジションを構築する。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:244
 msgid ""
 "Or using the \"blur with feathered selection\" method that I'll briefly "
 "mention at the end of this tutorial."
 msgstr ""
+"あるいは、このチュートリアルの最後で述べる、"
+"\"選択範囲を塗り広げてしぼかす\"機能を用いる。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:246
 msgid ""
 "I've tried to achieve smooth blending with Color Smudge brush by adding "
 "rotation and scatter dynamics, but honestly they looked like crap."
 msgstr ""
+"色ぼかしを使った滑らかな合成を達成しようと回転や散布ダイナミクスを"
+"試しましたが、正直に言ってガラクタのような見た目でした。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:248
 msgid "However, the Color Smudge brush is very good at \"textured blending\":"
-msgstr ""
+msgstr "しかしながら、色ぼかしブラシは\"テクスチャ合成\"においては素晴らしいです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:251
 msgid ".. image:: images/brushes/Krita-tutorial5-II.3.png"
@@ -681,35 +694,37 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:252
 msgid "Basically you can paint first and add textured transitions after."
-msgstr ""
+msgstr "基本的に最初に絵を描いて、その後にテクスチャトランジションを追加できます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:255
 msgid "Use cases: Coloring"
-msgstr ""
+msgstr "使用例：色"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:257
 msgid "For this last section, :guilabel:`Color Rate` is on."
-msgstr ""
+msgstr "この最後のセクションでは :guilabel:`描画色の割合`機能をオンにしています。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:260
 msgid "Layer options"
-msgstr ""
+msgstr "レイヤーオプション"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:262
 msgid ""
 "Before we get started, notice that you have several possibilities for your "
 "set up:"
 msgstr ""
+"始める前に、セットアップにいくつかの可能性があることに注意してください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:264
 msgid "Shading on the same layer"
-msgstr ""
+msgstr "同じレイヤー上でシェード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:265
 msgid ""
 "Shading on a separate layer, possibly making use of alpha-inheritance. The "
 "brush blends with the transparency of the layer it's on. This means:"
 msgstr ""
+""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:267
 msgid ""
