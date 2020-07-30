@@ -724,19 +724,24 @@ msgid ""
 "Shading on a separate layer, possibly making use of alpha-inheritance. The "
 "brush blends with the transparency of the layer it's on. This means:"
 msgstr ""
-""
+"アルファ継承を使用した異なるレイヤー上にシェーディング。"
+"ブラシはレイヤーの透明情報を参照して合成します。これが意味することは："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:267
 msgid ""
 "If the area underneath is more of less uniform, the output is actually "
 "similar as if shading on the same layer"
 msgstr ""
+"ブラシ直下の領域が一様であれば、同一レイヤーでシェーディングをかけるのと"
+"同じような効果を得ます"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:269
 msgid ""
 "But if the area underneath is not uniform, then you'll get fewer color "
 "variations."
 msgstr ""
+"ブラシ直下の領域が一様でなければ、色の変化はわずかな"
+"ものとなるでしょう。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:271
 msgid ""
@@ -744,6 +749,9 @@ msgid ""
 "fairly sure you don't need to adjust the layer below, or the colors may "
 "become a mess."
 msgstr ""
+"オーバーレイモードを使用した異なるレイヤーでのシェーディング。オーバーレイ"
+"モードは、下にあるレイヤーを調整する必要がないと確信した場合にのに使用してください"
+"そうでない場合、色が乱雑になる可能性があります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:274
 msgid ".. image:: images/brushes/Krita-tutorial5-III.1-1.png"
@@ -751,7 +759,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:276
 msgid "Issue with transparency"
-msgstr ""
+msgstr "透明性に関するイシュー"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:278
 msgid ""
@@ -759,18 +767,20 @@ msgid ""
 "when you start a new, transparent layer and \"paint\" on this layer, you "
 "will nearly always get less than full opacity."
 msgstr ""
+"色ぼかしブラシは色を透明度と合成します。つまり、"
+"新規透明レイヤー上で新たに描き始めると、ほとんどの場合において、完全な透明ではなくなります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:280
 msgid "Basically:"
-msgstr ""
+msgstr "基本的に："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:282
 msgid "It may look great when you're coloring on a blank canvas"
-msgstr ""
+msgstr "何も描かれていないキャンバスに色を付けると強い効果を見ることができます"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:283
 msgid "But it won't look so great when you add something underneath"
-msgstr ""
+msgstr "しかし、そのレイヤーの下に別の何かを追加すると、より強い効果が見られます"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:286
 msgid ".. image:: images/brushes/Krita-tutorial5-III.1-2.png"
@@ -778,24 +788,25 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:287
 msgid "The solution is pretty simple though:"
-msgstr ""
+msgstr "解決策はとってもシンプルです："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:290
 msgid ""
 "With tinting, you already have the color underneath colored, so that's done"
 msgstr ""
+"着色すれば、その時点で下のレイヤーに既に色がついているので、それで完了です"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:291
 msgid "Make sure you have the area underneath colored in first:"
-msgstr ""
+msgstr "最初に下にある領域に色をつけておいてください："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:291
 msgid "For painting, roughly color in the background layer first"
-msgstr ""
+msgstr "絵の場合、最初に背景レイヤーにざっくりと色を塗ります"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:292
 msgid "Or color in the shape on a new layer and make use of alpha-inheritance"
-msgstr ""
+msgstr "あるいは、新規レイヤーの形に合わせて着色して、アルファ継承を使用してください"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:293
 msgid ""
@@ -804,6 +815,10 @@ msgid ""
 "or the lightest highlights, and use the color smudge brush for the "
 "contrasting color."
 msgstr ""
+"最後の解決法としては、最大の効果を得るために使用している色と非常に対照的な色を"
+"使用してください。例えば、暗い影の領域あるいは明るいハイライト領域を"
+"最初にシェードしておき、色ぼかしブラシをその対照色で使用して"
+"ください"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:296
 msgid ".. image:: images/brushes/Krita-tutorial5-III.1-3.png"
@@ -811,7 +826,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:298
 msgid "Soft-shading"
-msgstr ""
+msgstr "ソフト・シェーディング"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:300
 msgid "Suppose you want more or less smooth color transitions. You can either:"
