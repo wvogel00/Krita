@@ -909,28 +909,36 @@ msgid ""
 "Many of the included color smudge brush presets produce a thick oil paint-"
 "like effect. This is mainly achieved with the Smearing mode on. Basically:"
 msgstr ""
+"色ぼかしブラシのプリセットの多くは、濃い油絵タッチの効果を
+"生み出します。これは主に色をのばすモードをオンにすることで得られます。基本的に："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:325
 msgid ""
 "Both at 0.50 are fine for normal round brushes or fully opaque predefined "
 "brushes"
 msgstr ""
+"通常の円形ブラシ、あるいは完全に不透明な定義済みブラシのどちらでも、値は0.50で"
+"問題ありません。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:326
 msgid "Smearing mode with high smudge and color rates"
-msgstr ""
+msgstr "描画色の割合と高いぼかし度合いでの色をのばすモード"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:326
 msgid ""
 "Up to 1.00 each for brushes with less density or non fully-opaque predefined "
 "brushes"
 msgstr ""
+"密度の低いブラシ，あるいは完全不透明ではない定義済みブラシの場合は、最大は"
+"1.00までです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:328
 msgid ""
 "Add Size/Rotation/Scatter dynamics as needed. When you do this, increase "
 "smudge and color rates to compensate for increased color mixing."
 msgstr ""
+"サイズ/回転/散布のダイナミクスを必要に応じて追加してください。その場合、"
+"ぼかし度合いと描画色の割合を増やして、混色の度合いが増加するよう補償してください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:331
 msgid ".. image:: images/brushes/Krita-tutorial5-III.3-1.png"
@@ -942,6 +950,9 @@ msgid ""
 "colors, then turn on :menuselection:`Gradient --> Fuzzy`. Alternatively, "
 "just paint with different colors in succession (bottom-right example)."
 msgstr ""
+"私が本当にやりたいことの一つは、前景色と背景色に異なる色を設定してから"
+":menuselection:`グラデーション --> ファジー` をオンにするか、あるいは"
+"異なる色で続けて塗るだけです。（例　右下）"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:335
 msgid ".. image:: images/brushes/Krita-tutorial5-III.3-2.png"
@@ -955,6 +966,11 @@ msgid ""
 "something that looks more like... yarn. Which is cool too. Here, I just used "
 "oval brushes and :menuselection:`Rotation --> Distance`."
 msgstr ""
+"最後にランダムについてです。ピクセルブラシでは細長いブラシを用いて、"
+"回転ダイナミクスを設定することであらゆる種類のフリルデザインが得られます。"
+"色ぼかしブラシではこれは得られない代わりに....フリルというよりも糸に見えるものが"
+"得られます。これもクールです。ここに、楕円形のブラシを使って"
+":menuselection:`回転 --> 距離` に設定した例があります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:339
 msgid ".. image:: images/brushes/Krita-tutorial5-III.3-3.png"
@@ -962,7 +978,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:341
 msgid "Painting: Digital watercolor style"
-msgstr ""
+msgstr "ペインティング：デジタル水彩スタイル"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:343
 msgid ""
@@ -970,22 +986,29 @@ msgid ""
 "e. a soft, smooth shading style rather than realistic watercolor. For this "
 "you mostly need the Dulling mode. A few things:"
 msgstr ""
+"ここでの\"デジタル水彩\"は、しばしばオンラインで見られる水彩スタイル、つまり、"
+"現実の水彩よりも柔らかで滑らかなシェーディングのスタイルを参照しています。"
+"これには混色して描画するモードが主に必要です。いくつかの事項："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:345
 msgid ""
 "Contrary to the Smearing mode, you may want to lower opacity for normal "
 "round brushes to get a smoother effect, to 0.70 for example."
 msgstr ""
+"色をのばすモードとは逆に、通常の円形ブラシの場合、"
+"不透明度を例えば0.70と低くすることで、滑らかな効果が得られます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:346
 msgid "Vary the brush tip fade value as well."
-msgstr ""
+msgstr "ブラシ形状のフェード値も同様に変化させます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:347
 msgid ""
 "When using :guilabel:`Scatter` or other dynamics, you can choose to set "
 "smudge and color values to high or low values, for different outcomes."
 msgstr ""
+":guilabel:`散布`あるいは他のダイナミクスを使用する際には、様々な結果に応じて"
+"ぼかし程度あるいは色の値を高く設定するか低く設定するか選ぶことができます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:350
 msgid ".. image:: images/brushes/Krita-tutorial5-III.4.png"
@@ -993,25 +1016,27 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:352
 msgid "Blurring"
-msgstr ""
+msgstr "かすみ"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:354
 msgid "You can:"
-msgstr ""
+msgstr "できること："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:356
 msgid "Paint then smudge, for mostly texture transitions"
-msgstr ""
+msgstr "色を塗ると、ほとんどテクスチャ変化のためにぼかします。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:357
 msgid "Or build up transitions by using intermediate color values"
-msgstr ""
+msgstr "あるいは、中間色の値を用いた変化を作り上げます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:359
 msgid ""
 "If you want even smoother effects, well, just use blur. Gaussian blur to be "
 "exact."
 msgstr ""
+"より滑らかな効果が欲しい場合には、かすみを使用してください。正確には、"
+"ガウスぼかしです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:362
 msgid ".. image:: images/brushes/Krita-tutorial5-III.5.png"
@@ -1019,4 +1044,4 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:363
 msgid "And there you go. That last little trick concludes this tutorial."
-msgstr ""
+msgstr "さあ進みましょう。最後のちょっとしたトリックでこのチュートリアルは終わりです。"
