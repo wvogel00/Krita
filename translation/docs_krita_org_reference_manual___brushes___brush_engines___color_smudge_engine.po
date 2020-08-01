@@ -921,7 +921,7 @@ msgid ""
 "Many of the included color smudge brush presets produce a thick oil paint-"
 "like effect. This is mainly achieved with the Smearing mode on. Basically:"
 msgstr ""
-"色ぼかしブラシのプリセットの多くは、濃い油絵タッチの効果を"
+"色ぼかしブラシのプリセットの多くは、濃い油絵のような効果を"
 "生み出します。これは主に色をのばすモードをオンにすることで得られます。基本的に："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:325
