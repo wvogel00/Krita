@@ -118,7 +118,7 @@ msgid ""
 "How much of the foreground color is added to the smudging mix. Works "
 "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`."
 msgstr ""
-"色ぼかしされる描画色の割合を指します。"
+"ぼかす描画色の割合を指します。"
 " :ref:`option_smudge_length` と :ref:`option_smudge_radius` と連携して機能します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
@@ -163,7 +163,8 @@ msgid ""
 "Using an arithmetic blending type, Dulling is great for more smooth type of "
 "painting."
 msgstr ""
-"算術的合成タイプを使うことで、より滑らかな描画に適した混色となります。"
+"算術的合成タイプを使うことで、より滑らかな描画に適した"
+"混色となります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:74
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_01.png"
@@ -254,14 +255,17 @@ msgstr ""
 msgid ""
 "Smearing: This mode mixes colors by smudging (\"smearing\") the area "
 "underneath."
-msgstr "色のばし：下の領域をぼかす（色をのばす）ことによって混色するモードです。"
+msgstr ""
+"色のばし：下の領域をぼかす（色をのばす）ことによって"
+"混色するモードです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:110
 msgid ""
 "Dulling: In his mode, the brush \"picks up\" the color underneath it, mixes "
 "it with its own color, then paints with it."
 msgstr ""
-"混色：下の領域の色を拾い上げ、ブラシ自身のもつ色と混合して描画するモードです。"
+"混色：下の領域の色を拾い上げ、ブラシ自身のもつ色と混合して"
+"描画するモードです。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:113
 msgid ".. image:: images/brushes/Krita-tutorial5-I.1.png"
@@ -271,7 +275,9 @@ msgstr ""
 msgid ""
 "To better demonstrate the smudge function, I turned the color rate function "
 "off."
-msgstr "より良い混色機能のデモンストレーションのために、描画色の割合機能をオフにしています。"
+msgstr ""
+"より良い混色機能のデモンストレーションのために、描画色の割合機能を"
+"オフにしています。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:120
 msgid ".. image:: images/brushes/Krita-tutorial5-I.2.png"
@@ -292,7 +298,7 @@ msgid ""
 "Opacity: Below 0.50, there is practically no smudging left: keep opacity "
 "over 0.50."
 msgstr ""
-"不透明度：0.50以下では、不透明度はぼかしはほとんど効きません。"
+"不透明度が0.50以下では、不透明度はぼかしはほとんど効きません。"
 "0.50以上に設定してください。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:126
@@ -319,10 +325,10 @@ msgid ""
 "picks up a color and never lets go of it). The length of the effect is also "
 "affected."
 msgstr ""
-"感覚と
+"感覚と"
 "間隔と混色：間隔が小さいほど、効果は強くなります：　"
-"間隔を小さくしすぎると混色効果が強くなりすぎます。（"
-"拾った色を決して手放しません）効果の長さには"
+"間隔を小さくしすぎると混色効果が強くなりすぎます"
+"（拾った色を決して手放しません）。効果の長さには"
 "影響します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:130
@@ -340,7 +346,8 @@ msgid ""
 "The other settings should be pretty obvious from the pictures, so I'll spare "
 "you some walls of text."
 msgstr ""
-"その他の設定は画像からかなり明らかな筈ですので、テキストの壁をいくつか割愛します。"
+"その他の設定は画像からかなり明らかな筈ですので、"
+"テキストの壁をいくつか割愛します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:136
 msgid "Color Rate, Gradient and Blending modes"
@@ -457,8 +464,8 @@ msgid ""
 "menuselection:`Color --> Mix` for the Pixel brush: the color will vary "
 "between the colors of the gradient."
 msgstr ""
-"グラデーションは、プクせるブラシの :menuselection:`色のソース --> グラデーション` あるいは"
-":menuselection:`色 --> 色を混ぜる` と同等です。"
+"グラデーションは、ピクセルブラシの :menuselection:`色のソース --> グラデーション`"
+"あるいは :menuselection:`色 --> 色を混ぜる` と同等です。"
 "グラデーションの色の間で変化します。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:177
@@ -515,7 +522,7 @@ msgid ""
 "is on. However, if you want it to take color information from all the "
 "layers, you can turn on the Overlay mode."
 msgstr ""
-"デフォルトでは、色ぼかしブラシは今書いていレイヤーの色情報を"
+"デフォルトでは、色ぼかしブラシは現作業レイヤーの色情報を"
 "参照しますが、全てのレイヤーの色情報を参照したい場合には、"
 "合成モードをオンにすることが出来ます。"
 
@@ -602,7 +609,8 @@ msgstr "混色に関するいくつかの設定"
 msgid ""
 "Lowering the spacing will also make the smudging effect stronger, so find a "
 "right balance. 0.10 for most mid-sized round brushes should be fine."
-msgstr "間隔を減らすほどぼかし効果は強くなるため、適切なバランスを見つけてください。"
+msgstr ""
+"間隔を減らすほどぼかし効果は強くなるため、適切なバランスを見つけてください。"
 "ほとんどの中程度サイズの円形ブラシで値を0.10すれば問題ありません。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:229
@@ -613,7 +621,7 @@ msgid ""
 msgstr ""
 "色のばしと違って、混色はブラシ形状・大きさを保持するので、"
 "色のばしブラシのようなブラシサイズをフェードオフする挙動はしません。似たような効果は"
-"シンプルサイズフェードダイナミクスで得られます。"
+"シンプルなサイズフェードダイナミクスで得られます。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:232
 msgid "Textured blending"
@@ -666,7 +674,9 @@ msgstr ""
 msgid ""
 "Building up the transition by painting with intermediate values, described "
 "later"
-msgstr "後述する中間値でトランジションを構築する。"
+msgstr ""
+"後述する中間値で描画することで変化を"
+"作る。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:244
 msgid ""
@@ -674,7 +684,7 @@ msgid ""
 "mention at the end of this tutorial."
 msgstr ""
 "あるいは、このチュートリアルの最後で述べる、"
-"\"選択範囲を塗り広げてしぼかす\"機能を用いる。"
+"\"選択範囲を塗り広げてしかすませる\"機能を用いる。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:246
 msgid ""
@@ -768,7 +778,8 @@ msgid ""
 "will nearly always get less than full opacity."
 msgstr ""
 "色ぼかしブラシは色を透明度と合成します。つまり、"
-"新規透明レイヤー上で新たに描き始めると、ほとんどの場合において、完全な透明ではなくなります。"
+"新規透明レイヤー上で新たに描き始めると、"
+"ほとんどの場合において、完全な透明ではなくなります。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:280
 msgid "Basically:"
