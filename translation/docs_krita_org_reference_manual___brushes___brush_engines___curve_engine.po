@@ -115,7 +115,7 @@ msgid ""
 "start forming relatively \"late\"."
 msgstr ""
 "一方で、値を大きくしすぎると、カーブ線は"
-"比較的\"遅れて\"から始めて描画されるようになります。"
+"比較的\"遅れて\"から初めて描画されるようになります。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:46
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:50
 msgid "Curves opacity dynamics: use this to vary Curves opacity dynamically."
-msgstr "カーブ線の不透明度のダイナミクス：カーブ線の不透明度を動的に変化させるときに使用してください"
+msgstr "カーブ線の不透明度のダイナミクス：カーブ線の不透明度を動的に変化させるときに使用してください。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:52
 msgid "In addition, you have access to two checkboxes:"
