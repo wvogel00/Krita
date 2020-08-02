@@ -98,7 +98,7 @@ msgid ""
 "1: undeformed, 2: Move, 3: Grow, 4: Shrink, 5: Swirl Counter Clock Wise, 6: "
 "Swirl Clockwise, 7: Lens Zoom In, 8: Lens Zoom Out"
 msgstr ""
-"1: 変形前、 2: 移動、 3: 拡大、 4:縮小、 5:反時計回りにねじる、 "
+"1: 変形前、 2: 引き延ばす、 3: 拡大、 4:縮小、 5:反時計回りにねじる、 "
 "6: 時計回りにねじる、 7:凸レンズ拡大、 8:凹レンズ縮小"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:44
@@ -111,7 +111,7 @@ msgstr "拡大"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:47
 msgid "This bubbles up the area underneath the brush-cursor."
-msgstr "ブラシカーソル直下の領域が湧くように拡大します"
+msgstr "ブラシカーソル直下の領域が湧くように拡大します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:48
 msgid "Shrink"
@@ -119,7 +119,7 @@ msgstr "縮小"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:49
 msgid "This pinches the Area underneath the brush-cursor."
-msgstr "ブラシカーソル直下の領域をつまんだように縮小します"
+msgstr "ブラシカーソル直下の領域をつまんだように縮小します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:50
 msgid "Swirl Counter Clock Wise"
@@ -127,7 +127,7 @@ msgstr "反時計回りにねじる"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:51
 msgid "Swirls the area counter clock wise."
-msgstr "領域を反時計回りにねじります"
+msgstr "領域を反時計回りにねじります。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:52
 msgid "Swirl Clock Wise"
@@ -135,15 +135,15 @@ msgstr "時計回りにねじる"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:53
 msgid "Swirls the area clockwise."
-msgstr "領域を時計回りにねじります"
+msgstr "領域を時計回りにねじります。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:54
 msgid "Move"
-msgstr "移動"
+msgstr "引き延ばす"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:55
 msgid "Nudges the area to the painting direction."
-msgstr "領域を描画方向に動かします"
+msgstr "領域を描画方向に引き延ばします。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:56
 msgid "Color Deformation"
@@ -151,7 +151,7 @@ msgstr "色ノイズ"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:57
 msgid "This seems to randomly rearrange the pixels underneath the brush."
-msgstr "ブラシ直下のピクセルがランダムに再配置されたように見えます"
+msgstr "ブラシ直下のピクセルがランダムに再配置されたように見えます。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:58
 msgid "Lens Zoom In"
@@ -159,7 +159,7 @@ msgstr "凸レンズ拡大"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:59
 msgid "Literally paints a enlarged version of the area."
-msgstr "文字通り、領域を拡大したものを描画します"
+msgstr "文字通り、領域を拡大したものを描画します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Lens Zoom Out"
@@ -167,7 +167,7 @@ msgstr "凹レンズ縮小"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Paints a minimized version of the area."
-msgstr "領域を最小化したものを描画します"
+msgstr "領域を最小化したものを描画します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:65
 msgid ".. image:: images/brushes/Krita_deform_brush_colordeform.png"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:65
 msgid "Showing color deform."
-msgstr "色ノイズの表示"
+msgstr "色ノイズを表示します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Deform Amount"
@@ -183,7 +183,7 @@ msgstr "変形量"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Defines the strength of the deformation."
-msgstr "変形の強さを決定します"
+msgstr "変形の強さを決定します。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:72
 msgid ".. image:: images/brushes/Krita_deform_brush_bilinear.png"
@@ -204,7 +204,7 @@ msgstr "カウンターを使う"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:77
 msgid "Slows down the deformation subtlety."
-msgstr "微妙な変形速度をスローダウンします"
+msgstr "微妙な変形速度をスローダウンします。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:81
 msgid ".. image:: images/brushes/Krita_deform_brush_useundeformed.png"
@@ -221,5 +221,5 @@ msgid ""
 "almost stop working, but it works really well with Grow."
 msgstr ""
 "現在の版の代わりに以前の版の画像からサンプルを取ります。いくつかの"
-"変形オプションではよく機能します。例えば移動機能ではほとんど変化が"
+"変形オプションではよく機能します。例えば引き延ばし機能ではほとんど変化が"
 "見られませんが、拡大機能では本当によく機能します。"
