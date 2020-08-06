@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Mix with background color"
-msgstr "背景色と混ぜる"
+msgstr "背景色との混色で粒子の色を塗る"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:1
 msgid "The Grid Brush Engine manual page."
@@ -44,14 +44,16 @@ msgid ""
 "The grid brush engine draws shapes on a grid. It helps you produce retro and "
 "halftone effects."
 msgstr ""
-"グリッドブラシはグリッド上に描いていきます。レトロ効果やハーフトーン"
-"効果を生み出すのに役立ちます。"
+"グリッドブラシは分割されたキャンバスに図形をグリッドに描いていきます。"
+"レトロな雰囲気やハーフトーン効果の生産に役立ちます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
 msgid ""
 "If you're looking to setup a grid for snapping, head to :ref:"
 "`grids_and_guides_docker`."
 msgstr ""
+"スナップ用のグリッドを設定する場合には、:ref:`grids_and_guides_docker`"
+"を参照してください。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
 msgid "Options"
@@ -115,7 +117,8 @@ msgid ""
 "The more you press, the more subdivisions. Uses Division as the finest "
 "subdivision possible."
 msgstr ""
-"強く押すほどサブ分割数が増加します。できる限りディビジョンをサブディビジョンとして使用します。"
+"強く押すほどサブグリッド数が増加します。この時、ブラシの分割数の値がサブグリッド数"
+"の最大値となります。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
 msgid "Scale"
@@ -134,8 +137,8 @@ msgid ""
 "Forces vertical borders in the particle space, between which the particle "
 "needs to squeeze itself."
 msgstr ""
-"パーティクル空間に垂直線を強制的に導入します。垂直線の間にあるパーティクルは"
-"詰め込まれます。"
+"パーティクル空間に縦線を強制的に導入します。その際、縦線が入る場所に本来存在していた"
+"粒子は押し分けられます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
 msgid "Horizontal Border"
@@ -146,8 +149,8 @@ msgid ""
 "Forces a horizontal borders in the particle space, between which the "
 "particle needs to squeeze itself."
 msgstr ""
-"パーティクル空間に横線を強制的に導入します。横線の間にあるパーティクルは"
-"詰め込まれます。"
+"パーティクル空間に横線を強制的に導入します。その際、横線が入る場所に本来存在していた"
+"粒子は押し分けられます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Jitter Borders"
