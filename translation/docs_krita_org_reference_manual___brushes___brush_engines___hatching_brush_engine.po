@@ -269,7 +269,7 @@ msgid ""
 "different from the above, it's mostly the order that changes when using "
 "dynamics."
 msgstr ""
-"デフォルトの線に対して-+45°の線を引いてから-45°の線を引く：例を参照してください。"
+"デフォルトの線に対して+45°の線を引いてから-45°の線を引く：例を参照してください。"
 "一つ上のスタイルとあまり変わらず、ダイナミクスを使用する時の順序の"
 "変更が主です。"
 
