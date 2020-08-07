@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "始める前に：この記事を書いている段階では、線幅がデフォルト設定から変更できない"
 "バグがあります。詳細設定の情報についてはguilabel:`ハッチングの詳細設定`に"
-"移動しguilabel:`アンチエイリアス線`をチェックしてください。"
+"移動しguilabel:`線にアンチエイリアスをかける`にチェックしてください。"
 "Pentalisはこの問題に気がついているのでこのバグはすぐに改修されるでしょう。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:44
@@ -134,7 +134,7 @@ msgid ""
 "thickness isn't working, check this option and it should work, because it "
 "switches to a different algorithm."
 msgstr ""
-"guilabel:`アンチエイリアス線`： エイリアシングを操作します。線の厚みの変更が"
+"guilabel:`線にアンチエイリアスをかける`： エイリアシングを操作します。線の厚みの変更が"
 "機能しない場合には、このオプションにチェックを入れると機能すると思います。"
 "この動作によって異なるアルゴリズムへの切り替えているからです。"
 
@@ -143,13 +143,16 @@ msgid ""
 ":guilabel:`Subpixel precision`: I'm guessing this affects the rendering "
 "quality, but you won't see much of a difference. Check this if you want to."
 msgstr ""
-""
+":guilabel:`サブピクセル精度`: レンダリングの質に影響するのだと思いますが、"
+"あまり差は見られないでしょう。必要でしたらチェックを入れてください。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:48
 msgid ""
 ":guilabel:`Color background`: Checking this will color in the background at "
 "the back of the hatching."
 msgstr ""
+":guilabel:`ハッチングの後ろに背景色を塗る` : チェックを入れると、"
+"ハッチングの背景を背景色で塗りつぶします。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:50
 msgid ""
@@ -157,6 +160,9 @@ msgid ""
 "are checked, but the difference isn't enough for you to worry about. I "
 "recommend just keeping the first two options checked."
 msgstr ""
+"最初の二つのオプションのチェックの有無によって、描画結果はわずかに"
+"異なってきますが、気にするほどの差ではありません。"
+"最初の二つのオプションにはチェックを入れておくことをおすすめします。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:53
 msgid ".. image:: images/brushes/Krita-tutorial8-A.I.2.png"
@@ -164,24 +170,25 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:55
 msgid "Hatching options"
-msgstr ""
+msgstr "ハッチングのオプション"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:57
 msgid "This is where the main hatching options go. They're intuitive enough:"
-msgstr ""
+msgstr "ここで主要なハッチングイプションを設定します。十分に直観的です："
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:59
 msgid "Angle: The angle of the hatching."
-msgstr ""
+msgstr "角度：ハッチングの角度"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:60
 msgid "Separation: This is the distance between the centers of the lines."
-msgstr ""
+msgstr "線の間隔：ハッチング線の中央同士の間の距離"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:62
 msgid ""
 "Use a value of 2 pixels or higher, or the lines won't be distinct anymore."
 msgstr ""
+"2ピクセル以上の値を使用しなければ、ハッチング線はあいまいなものになってしまいます。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:63
 msgid ""
@@ -189,32 +196,41 @@ msgid ""
 "instead it will take the value in \"Input-based intervals\" to divide the "
 "grid further. \"Input-based intervals\" can take values between 2 and 7."
 msgstr ""
+"線の間隔ダイナミクスは線の間隔にランダムな値を割り付けているわけではなく、"
+"代わりに\"入力ベースの間隔\"の値を使用してグリッドを分割しています。"
+"\"入力ベースの間隔\"は2から7の間の値を取り得ます。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:65
 msgid "Thickness: The line thickness."
-msgstr ""
+msgstr "線の太さ：線の太さ"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:67
 msgid ""
 "Actually, this is the thickness of the line + blank area, so the line itself "
 "has a thickness of half this value."
 msgstr ""
+"実際には、ハッチング線+空白領域の太さを表しますので、"
+"ハッチング線自体の太さはこの半分の値となります。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:68
 msgid ""
 "If you use the same separation value and the same line thickness value, then "
 "the lines and the area between them will be of the same thickness."
 msgstr ""
+"線の間隔と線の太さの値を同じ値にしている場合には、"
+"ハッチング線の太さとハッチング線間の空白領域は同じ太さとなります。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:69
 msgid "You can vary this value dynamically with the Thickness dynamics."
-msgstr ""
+msgstr "線の太さのダイナミクスを使って動的に値を変えることができます。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:70
 msgid ""
 "If the line thickness isn't changing for you, go to Hatching Preferences and "
 "check \"Antialiased Lines\"."
 msgstr ""
+"もし線の太さが思うように変わらない時には、ハッチングの詳細設定に移動し"
+"\"線にアンチエイリアスをかける\"にチェックを入れてください。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:72
 msgid ""
@@ -222,7 +238,10 @@ msgid ""
 "though you're revealing the existing hatching underneath. To nudge the "
 "hatching, you can tweak these two values. You can get various grid effects "
 "this way."
-msgstr ""
+msgstr "X原点、Y原点：ハッチング位置は固定のため、重ね塗りするとすでに"
+"描画されているハッチング線を強調するように振舞います。"
+"ハッチングを調整するには、この二つの値を調整してください。このように"
+"様座生グリッド効果を得ることができます。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:75
 msgid ".. image:: images/brushes/Krita-tutorial8-A.I.3-1.png"
@@ -230,19 +249,19 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:76
 msgid "Finally, we have the hatching styles:"
-msgstr ""
+msgstr "最後に、ハッチングスタイルについてです："
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:78
 msgid "No crosshatching: basic parallel lines"
-msgstr ""
+msgstr "クロスハッチングを行わない：基本的な平行線です"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:79
 msgid "Perpendicular plane only: grid lines"
-msgstr ""
+msgstr "デフォルトの線に対して垂直な線を引く：グリッド線です"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:80
 msgid "-45 degrees plane then +45 degrees plane: see example."
-msgstr ""
+msgstr "デフォルトの線に対して-45°の線を引いてから+45°の線を引く：例を参照してください"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:81
 msgid ""
@@ -250,10 +269,13 @@ msgid ""
 "different from the above, it's mostly the order that changes when using "
 "dynamics."
 msgstr ""
+"デフォルトの線に対して-+45°の線を引いてから-45°の線を引く：例を参照してください。"
+"一つ上のスタイルとあまり変わらず、ダイナミクスを使用する時の順序の"
+"変更が主です。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:82
 msgid "Moiré pattern: See example."
-msgstr ""
+msgstr "モアレパターン：例を見てください"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:84
 msgid ""
@@ -261,16 +283,21 @@ msgid ""
 "crosshatching style. When that happens, the crosshatching only gets drawn "
 "according to the conditions of the dynamics (pressure, speed, angle...)."
 msgstr ""
+"クロスハッチングダイナミクスは、クロスハッチングスタイルを選択している時"
+"にのみ動作します。動作時には、クロスハッチングはダイナミクスの設定"
+"（圧力，速度、角度...）のみを参照して描画します。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:86
 msgid ""
 "With most hatching styles, using crosshatching dynamics basically gets you "
 "the same hatching style, minus the occasional line."
 msgstr ""
+"多くのハッチングスタイルでは、クロスハッチングを使用すると、時たま"
+"描かれない線が生まれますが、基本的に同じハッチングスタイルとなります。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:87
 msgid "The exception is with Moire, which will produce a different pattern."
-msgstr ""
+msgstr "例外はモアレパターンで、異なるパターンを生み出します。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:90
 msgid ".. image:: images/brushes/Krita-tutorial8-A.I.3-2.png"
@@ -278,7 +305,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:92
 msgid "Use cases"
-msgstr ""
+msgstr "使用例"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:94
 msgid ""
@@ -286,10 +313,13 @@ msgid ""
 "values to 1.00. I recommended doing the hatching on a separate layer, then "
 "erasing the extra areas."
 msgstr ""
+"もしハッチング端をファジーにしたくない場合には、ブラシ形状に移動し減衰値を"
+"1.00に設定してください。ハッチングは別レイヤーに描画して、余分な部分を消す"
+"ことをおすすめします。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:96
 msgid "Now for the uses:"
-msgstr ""
+msgstr "すぐに使用："
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:98
 msgid ""
@@ -297,6 +327,9 @@ msgid ""
 "versions I'm using, the default Separation is 1, which is too low, so "
 "increase Separation to a value between 2 to 10."
 msgstr ""
+”もちろん、完全にノーマルなハッチング線を使用することできます。”
+"私が使用しているバージョンでは、デフォルトの線の間隔は1と非常に小さいので、"
+"2から10の間に値を上げています。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:99
 msgid ""
@@ -305,37 +338,51 @@ msgid ""
 "you're using a mouse). Doesn't that look more natural? (When using a mouse, "
 "pass over the areas where you want thicker lines again while drawing faster)."
 msgstr ""
+"ノーマルなハッチングでは退屈すぎる場合には、線の太さの値を上げて"
+"線の太さのダイナミクスを圧力（タブレットの場合）か"速度（マウスの場合）に設定して"
+"ください。より自然なハッチングに見えてきませんか？（マウスの場合、"
+"ハッチング線をより太くしたい場所では塗り重ねてください。）"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:100
 msgid ""
 "Grittier texture: add some density and/or randomness to your autobrush for a "
 "grittier texture."
 msgstr ""
+"グリティアーテクスチャ：グリティアーテクスチャ用に密度やランダム度を"
+"オートブラシに追加します。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:101
 msgid ""
 "You can also set Painting Mode to Build up, and Mode to Multiply, to make "
 "some colors have more depth. (see my grid example)."
 msgstr ""
+"もちろん、描画モードを構築することも、描画モードを乗算にすることも、"
+"いくつかの色での効果をより深くすることを可能です。（私のグリッドサンプルを見てください）"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:102
 msgid "Vary Origin X and Origin Y while using the same patterns."
-msgstr ""
+msgstr "同じハッチングパターンを使いながら、原点Xと原点Yの値を変えてみてください。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:103
 msgid ""
 "Use the Separations dynamic for more complex patterns. Add in Line Thickness "
 "and other dynamics for more effect."
 msgstr ""
+"より複雑なパターンを作るには線の間隔ダイナミクスを使用してください。さらに凝った効果として"
+"線の太さやその他のダイナミクスを追加してください。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:104
 msgid ""
 "Now, the Moiré pattern is quite boring on its own, but it is much more "
 "interesting with Crosshatching dynamics set on Fuzzy."
 msgstr ""
+"モアレパターンはそれ自体は非常につまらないものですが、ファジーに設定された"
+"クロスハッチングダイナミクスと使うともっと面白いものになります。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:105
 msgid ""
 "For more texture, set Line Thickness to Fuzzy, decrease Density a bit and "
 "increase Randomness and you get a nice gritty texture."
 msgstr ""
+"さらにテクスチャを増やす方法として、線の太さをファジーに設定したり、密度を少し減らしたり"
+"ランダム度を上げてみたりすれば素敵なテクスチャを得られます。"
