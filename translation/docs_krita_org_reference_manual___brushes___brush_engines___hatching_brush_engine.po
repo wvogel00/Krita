@@ -319,7 +319,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:96
 msgid "Now for the uses:"
-msgstr "すぐに使用："
+msgstr "すぐに使うために："
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:98
 msgid ""
@@ -356,7 +356,7 @@ msgid ""
 "You can also set Painting Mode to Build up, and Mode to Multiply, to make "
 "some colors have more depth. (see my grid example)."
 msgstr ""
-"もちろん、描画モードを重ね塗りに、描画モードを乗算にして、"
+"描画モードを自己への重ね塗りを有効に、モードを乗算にして、"
 "一部の色により深みをもたせることも可能です。（私のグリッドサンプルを見てください）"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:102
