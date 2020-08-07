@@ -81,10 +81,10 @@ msgid ""
 "drawing with brushes of parallel lines. The exception is for :guilabel:"
 "`Moiré pattern` with :guilabel:`Crosshatching` dynamics on."
 msgstr ""
-"ハッチング自体の位置はほぼ固定ですので、ハッチングブラシで線を描くと、"
-"平行線のブラシで描くよりも\"明らかに\"なるように通常は機能します。"
-":guilabel:`モアレパターン`や:guilabel:`クロスハッチング`のダイナミクスを"
-"オンにした場合は例外です。"
+"ハッチング線の位置は固定ですので、ハッチングブラシで線を描くと、"
+"平行線のブラシで描くよりも\"強調\"されるように機能します。"
+":guilabel:`クロスハッチング`のダイナミクスをオンにした"
+":guilabel:`モアレパターン`は例外です。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:34
 msgid ""
@@ -241,7 +241,7 @@ msgid ""
 msgstr "X原点、Y原点：ハッチング位置は固定のため、重ね塗りするとすでに"
 "描画されているハッチング線を強調するように振舞います。"
 "ハッチングを調整するには、この二つの値を調整してください。このように"
-"様座生グリッド効果を得ることができます。"
+"多様なグリッド効果を得ることができます。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:75
 msgid ".. image:: images/brushes/Krita-tutorial8-A.I.3-1.png"
@@ -327,7 +327,7 @@ msgid ""
 "versions I'm using, the default Separation is 1, which is too low, so "
 "increase Separation to a value between 2 to 10."
 msgstr ""
-”もちろん、完全にノーマルなハッチング線を使用することできます。”
+"もちろん、完全にノーマルなハッチング線を使用することできます。"
 "私が使用しているバージョンでは、デフォルトの線の間隔は1と非常に小さいので、"
 "2から10の間に値を上げています。"
 
