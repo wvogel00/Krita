@@ -102,7 +102,7 @@ msgid ""
 "thickness."
 msgstr ""
 ":guilabel:`サイズ`ダイナミクスはブラシ形状に影響しますが、ハッチングの"
-"厚さには影響しません。"
+"太さには影響しません。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:38
 msgid ".. image:: images/brushes/Krita-tutorial8-A.I.1.png"
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 "クロスハッチングダイナミクスは、クロスハッチングスタイルを選択している時"
 "にのみ動作します。動作時には、クロスハッチングはダイナミクスの設定"
-"（圧力，速度、角度...）のみを参照して描画します。"
+"（圧力，速度、角度...）を参照して描画します。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:86
 msgid ""
