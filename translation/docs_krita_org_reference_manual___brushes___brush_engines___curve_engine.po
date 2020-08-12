@@ -41,9 +41,9 @@ msgid ""
 "spaced lines. It has, among other things been used as a replacement for "
 "pressure sensitive strokes in lieu of a tablet."
 msgstr ""
-"カーブブラシは"
-""
-""
+"カーブブラシは等間隔の線の集まりで構成される描線を形成します。"
+"とりわけ、タブレットでは圧力にセンシティブな線の代わりとして"
+"用いられます。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:25
 msgid "Settings"
@@ -68,10 +68,10 @@ msgid ""
 "connection line. Drawing faster gives you wider curves areas."
 msgstr ""
 "カーブ線は、私が思うに、曲線で形成された多分にファンシーな線です。"
-"カーブ線はカーブ上の一つの点を、カーブ上の前の点と"
+"カーブ線はカーブ上のある描点を、その前の描点と"
 "接続することで形成されます。これは、直線を描いている場合には、"
 "カーブ線は接続線と重なって見えなくなることを"
-"意味しています。早く線をひくほど、より広域な曲線領域を得られます。"
+"意味しています。早く線をひくほど、より広域なカーブを得られます。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:35
 msgid ".. image:: images/brushes/Krita-tutorial6-I.1-1.png"
@@ -89,11 +89,11 @@ msgstr ""
 msgid ""
 "Line width: this applies to both the connection line and the curve lines."
 msgstr ""
-"線幅：接続線とカーブ線両方に適用されます。"
+"カーブの幅：接続線とカーブ線両方に適用されます。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:40
 msgid "Line width dynamics: use this to vary line width dynamically."
-msgstr "線幅ダイナミクス：線幅を動的に変化させるときに使用してください。"
+msgstr "カーブ線の太さダイナミクス：線幅を動的に変化させるときに使用してください。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:42
 msgid ""
@@ -106,7 +106,7 @@ msgid ""
 "If you set this at low values, then the curve lines can only form over a "
 "small distances, so they won't be too visible."
 msgstr ""
-"低い値に設定すると、カーブ線は短い距離でのみ形成され、目視するのは"
+"低い値に設定すると、カーブ線は短い間隔で形成され、目視するのは"
 "困難です。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:45
@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 "ですので実際には、カーブ線の最大値は中間値くらいにすることになるでしょう。そう、"
 "40~60ほどで、これはおおよそデフォルト値となっています。本当に高分解能で"
-"描画しない限りは。"
+"描画しない限りは、ですが。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:48
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:50
 msgid "Curves opacity dynamics: use this to vary Curves opacity dynamically."
-msgstr "カーブ線の不透明度のダイナミクス：カーブ線の不透明度を動的に変化させるときに使用してください。"
+msgstr "カーブの不透明度ダイナミクス：カーブ線の不透明度を動的に変化させるときに使用してください。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:52
 msgid "In addition, you have access to two checkboxes:"
@@ -151,13 +151,13 @@ msgstr "加えて、２つのチェックボックスにアクセスできます
 msgid ""
 "Paint connection line, which toggles the visibility of the connection line."
 msgstr ""
-"接続線の描画において、接続線の可視性を切り替えます。"
+"カーブ接続線の描画は、接続線の可視性を切り替えます。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:55
 msgid ""
 "Smoothing, which... I have no idea actually. I don't see any differences "
 "with or without it. Maybe it's for tablets?"
-msgstr "滑らかさについては...実際のところ使い道がありません。あってもなくても"
+msgstr "平滑化は...実際のところ使い方が分かりません。あってもなくても"
 "違いがわかりません。タブレット用なのでしょうか？"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:58
@@ -192,7 +192,7 @@ msgstr ""
 msgid ""
 "Set line width to a higher value (ex.: 5), then turn line width dynamics on:"
 msgstr ""
-"線は我をより高い値(例えば5)に設定して、線幅ダイナミクスをオンにしてください。"
+"カーブ線の幅をより高い値(例えば5)に設定して、カーブ線の太さダイナミクスをオンにしてください。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:70
 msgid ""
@@ -202,7 +202,7 @@ msgid ""
 "Dynamically."
 msgstr ""
 "タブレットユーザーの場合、筆圧をこのように設定してください（筆圧はデフォルトで"
-"洗濯されているため、線幅ダイナミクスをオンにするだけです）。私自身は確認できませんが、"
+"選択されているため、カーブ線の太さダイナミクスをオンにするだけです）。私自身は確認できませんが、"
 "タブレットユーザーは描画ダイナミクスが十分機能していることを"
 "確認しています。"
 
@@ -211,7 +211,7 @@ msgid ""
 "If you're a mouse user hoping to get variable line width, set the Line Width "
 "dynamics to Speed."
 msgstr ""
-"マウスユーザーで線幅を変化させたい方は、線幅ダイナミクスを速度について"
+"マウスユーザーで線幅を変化させたい方は、カーブ線の太さダイナミクスを速度について"
 "設定してください。"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:74
@@ -241,7 +241,7 @@ msgid ""
 "transitions. It takes a bit of practice, and the thicker the line, the more "
 "visible the deformities will be. Also, zoom in to increase control."
 msgstr ""
-"線幅ダイナミクスを速度で設定して使用している場合には、滑らかに流れるような"
+"カーブ線の太さダイナミクスを速度で設定して使用している場合には、滑らかに流れるような"
 "動きをしてください：急峻な速度変化をするとサイズ変化も急峻になります。"
 "これには少々練習が必要です。線が太いほど、線幅の変化が目立ちます。"
 "また、コントロールしやすくするにはズームインします。"
