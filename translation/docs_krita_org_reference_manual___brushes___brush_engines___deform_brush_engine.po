@@ -103,11 +103,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:44
 msgid "These decide what strangeness may happen underneath your brush cursor."
-msgstr "これらの選択肢によってブラシカーソル直下で起きる変化を決定します。"
+msgstr "これらがブラシカーソル直下で起きる変化です。"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:46
 msgid "Grow"
-msgstr "拡大"
+msgstr "膨らます"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:47
 msgid "This bubbles up the area underneath the brush-cursor."
@@ -115,7 +115,7 @@ msgstr "ブラシカーソル直下の領域が湧くように拡大します。
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:48
 msgid "Shrink"
-msgstr "縮小"
+msgstr "縮める"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:49
 msgid "This pinches the Area underneath the brush-cursor."
