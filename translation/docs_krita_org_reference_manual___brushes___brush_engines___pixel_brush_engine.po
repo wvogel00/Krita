@@ -188,8 +188,8 @@ msgid ""
 "The color will always become black in the end, and will work with Plain "
 "Color, Gradient and Uniform random as source."
 msgstr ""
-"どの色も最終的には黒になり、通常色、勾配のついた色、"
-"ランダムに形成された色をソースとします。"
+"どの色も最終的には黒になり、グラデーション色と"
+"各描点でランダムな色をソースとして、現在の描画色で機能します。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:66
 msgid "Hue, Saturation, Value"
@@ -200,6 +200,8 @@ msgid ""
 "These parameters allow you to do an HSV adjustment filter on the :ref:"
 "`option_source` and control it with Sensors."
 msgstr ""
+"これらのパラメータで、:ref:`option_source`にあるHSV補正フィルターを"
+"センサーを使ってコントロール出来ます。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
@@ -207,11 +209,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:72
 msgid "Works with Plain Color, Gradient and Uniform random as source."
-msgstr ""
+msgstr "グラデーションと各描点でランダムな色をソースとして、現在の描画色で機能します。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:75
 msgid "Uses"
-msgstr ""
+msgstr "用途"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:78
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_02.png"
@@ -222,3 +224,5 @@ msgid ""
 "Having all three parameters on Fuzzy will help with rich color texture. In "
 "combination with :ref:`option_mix`, you can have even finer control."
 msgstr ""
+"ファジーにした場合3つのパラメータはいずれもリッチな色テクスチャに役立ちます。"
+":ref:`option_mix`と組み合わせることで、更に細かいコントロールが可能です。"
