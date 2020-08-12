@@ -44,15 +44,15 @@ msgid ""
 "The grid brush engine draws shapes on a grid. It helps you produce retro and "
 "halftone effects."
 msgstr ""
-"グリッドブラシは分割されたキャンバスに図形をグリッドに描いていきます。"
-"レトロな雰囲気やハーフトーン効果の生産に役立ちます。"
+"グリッドブラシはグリッド状に図形を描いていきます。"
+"レトロ効果やハーフトーン効果の生産に役立ちます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
 msgid ""
 "If you're looking to setup a grid for snapping, head to :ref:"
 "`grids_and_guides_docker`."
 msgstr ""
-"スナップ用のグリッドを設定する場合には、:ref:`grids_and_guides_docker`"
+"スナップグリッドを設定する場合には、:ref:`grids_and_guides_docker`"
 "を参照してください。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
@@ -81,32 +81,32 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:38
 msgid "Brush Size"
-msgstr "ブラシサイズ"
+msgstr "ブラシのサイズ"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:40
 msgid "Grid Width"
-msgstr "グリッド幅"
+msgstr "ブラシの横幅"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:41
 msgid "Width of the cursor area."
-msgstr "カーソル領域の幅"
+msgstr "グリッド領域の横幅。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:42
 msgid "Grid Height"
-msgstr "グリッド高さ"
+msgstr "ブラシの縦幅"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:43
 msgid "Height of the cursor area."
-msgstr "カーソル領域の高さ"
+msgstr "グリッド領域の横幅。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:44
 msgid "Division"
-msgstr "分割"
+msgstr "ブラシの分割数"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:45
 msgid ""
 "Subdivides the cursor area and uses the resulting area to draw the particles."
-msgstr "カーソル領域をサブグリッドに分割し、分割された領域を使ってパーティクルを描きます。"
+msgstr "グリッド領域をサブグリッドに分割して、パーティクルを描きます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:46
 msgid "Division by pressure"
@@ -122,11 +122,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
 msgid "Scale"
-msgstr "拡大縮小"
+msgstr "倍率"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:49
 msgid "Scales up the area."
-msgstr "領域を拡大縮小します。"
+msgstr "グリッド領域を拡大縮小します。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:50
 msgid "Vertical Border"
@@ -178,15 +178,15 @@ msgstr "領域を楕円で埋めます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:66
 msgid "Rectangle"
-msgstr "四角形"
+msgstr "矩形"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:67
 msgid "Fills the area."
-msgstr "領域を塗りつぶします。"
+msgstr "塗りつぶします。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:68
 msgid "Line"
-msgstr "線"
+msgstr "線のスタイル"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:69
 msgid ""
@@ -204,7 +204,7 @@ msgstr "高分解能でのエイリアス線のように見えます"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Anti-aliased Pixel"
-msgstr "アンチエイリアス・ピクセル"
+msgstr "アンチエイリアス付きピクセル"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Fills the area with little polygons."
@@ -212,11 +212,11 @@ msgstr "領域を少しのポリゴンで埋めます。"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:78
 msgid "Color Options"
-msgstr "色オプション"
+msgstr "色のオプション"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:80
 msgid "Random HSV"
-msgstr "ランダムHSV"
+msgstr "HSVをランダム化"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:81
 msgid ""
