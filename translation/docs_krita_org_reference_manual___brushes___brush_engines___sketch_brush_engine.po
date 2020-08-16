@@ -20,20 +20,20 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:1
 msgid "The Sketch Brush Engine manual page."
-msgstr ""
+msgstr "スケッチブラシエンジンのマニュアルページ"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:12
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:17
 msgid "Sketch Brush Engine"
-msgstr ""
+msgstr "スケッチブラシエンジン"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:12
 msgid "Brush Engine"
-msgstr ""
+msgstr "ブラシエンジン"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:12
 msgid "Harmony Brush Engine"
-msgstr ""
+msgstr "調和ブラシエンジン"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:21
 msgid ".. image:: images/icons/sketchbrush.svg"
@@ -43,14 +43,15 @@ msgstr ""
 msgid ""
 "A line based brush engine, based on the Harmony brushes. Very messy and fun."
 msgstr ""
+"調和ブラシに基づいたブラシエンジンによる線。とても散らかっていて楽しいです。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:25
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:28
 msgid "Has the following parameters:"
-msgstr ""
+msgstr "次のパラメータを持っています："
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:30
 msgid ":ref:`option_brush_tip`"
@@ -94,11 +95,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:44
 msgid "Line Width"
-msgstr ""
+msgstr "カーブの幅"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:46
 msgid "The width of the rendered lines."
-msgstr ""
+msgstr "描画される線の幅です。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:49
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_sketch_linewidth.png"
@@ -106,13 +107,15 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:53
 msgid "Offset Scale"
-msgstr ""
+msgstr "カーブ線と主描線の距離"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:55
 msgid ""
 "When curve lines are formed, this value roughly determines the distance from "
 "the curve lines to the connection lines:"
 msgstr ""
+"この値は、カーブ線が作られる時のカーブ線とカーブ接続線の間"
+"の距離を大まかに決定します。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:57
 msgid ""
@@ -120,18 +123,24 @@ msgid ""
 "similar outputs, as do a value of say 30% and 70%. You could think that the "
 "actual value range is between 50% and 200%."
 msgstr ""
+"これやややミスリーディングです。というのも、値0%と値100%からは似たような"
+"結果が得られ、値30%と値70%の場合も同様のためです。実際の値の範囲は"
+"50%から200%の間であると考えられます。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:58
 msgid ""
 "0% and 100% correspond to the curve lines touching the connection lines "
 "exactly."
 msgstr ""
+"0%と100%はカーブ線はカーブ接続線にぴったり触れています。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:59
 msgid ""
 "Above 100%, the curve lines will go further than the connection lines, "
 "forming a fuzzy effect."
 msgstr ""
+"100%以上では、カーブ線は接続線よりも遠くなり、"
+"ファジー効果が生じます。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:62
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_sketch_offset.png"
@@ -143,13 +152,15 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:68
 msgid "Density"
-msgstr ""
+msgstr "密度"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:70
 msgid ""
 "The density of the lines. This one is highly affected by the Brush-tip, as "
 "determined by the Distance Density toggle."
 msgstr ""
+"線の密度です。'距離密度を使用する'のオンオフで決定されるように、"
+"ブラシ形状の影響を大きく受けます。"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:73
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_sketch_density.png"
@@ -157,13 +168,15 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:74
 msgid "Use Distance Density"
-msgstr ""
+msgstr "距離密度を使用する"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:75
 msgid ""
 "The further the line covered is from the center of the area of effect, the "
 "less the density of the resulting curve lines."
 msgstr ""
+""
+""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:77
 msgid "Magnetify"
