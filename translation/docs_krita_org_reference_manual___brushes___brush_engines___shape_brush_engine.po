@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Krita Manual 4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-12 03:44+0200\n"
+"PO-Revision-Date: 2019-03-02 16:12-0800\n"
+"Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: ../../<generated>:1
+msgid "Hard Edge"
+msgstr "アンチエイリアスなし"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:1
+msgid "The Shape Brush Engine manual page."
+msgstr "形状ブラシエンジンのマニュアルページ"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:16
+msgid "Shape Brush Engine"
+msgstr "形状ブラシエンジン"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "ブラシエンジン"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Experiment Brush Engine"
+msgstr "実験ブラシエンジン"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Al.Chemy"
+msgstr "錬金術"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:19
+msgid ".. image:: images/icons/shapebrush.svg"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:20
+msgid "An Al.chemy inspired brush-engine. Good for making chaos with!"
+msgstr "錬金術に触発されたブラシエンジンです．カオスを創るのが得意です！"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:23
+msgid "Parameters"
+msgstr "パラメータ"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:25
+msgid ":ref:`option_experiment`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:26
+msgid ":ref:`blending_modes`"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:31
+msgid "Experiment Option"
+msgstr "形状ブラシのオプション"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:33
+msgid "Speed"
+msgstr "速度"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:34
+msgid ""
+"This makes the outputted contour jaggy. The higher the speed, the jaggier."
+msgstr ""
+"出力される輪郭をジャギーにします。値が大きいほどジャギーになります。"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:35
+msgid "Smooth"
+msgstr "滑らかに"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:36
+msgid ""
+"Smoothens the output contour. This slows down the brush, but the higher the "
+"smooth, the smoother the contour."
+msgstr ""
+"出力される輪郭を滑らかにします。ブラシの描画はスローダウンしますが、値が大きいほど"
+"輪郭は滑らかになります。"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:37
+msgid "Displace"
+msgstr "変位"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:38
+msgid ""
+"This displaces the shape. The slow the movement, the higher the displacement "
+"and expansion. Fast movements shrink the shape."
+msgstr ""
+"形状を変位させます。動きがゆっくりするほど、変位量と膨張量が増します。"
+"早い動きは形状を縮ませます。"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:39
+msgid "Winding Fill"
+msgstr "反転なし全域塗りつぶし"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:40
+msgid ""
+"This gives you the option to use a 'non-zero' fill rules instead of the "
+"'even-odd' fill rule, which means that where normally crossing into the "
+"shape created transparent areas, it now will not."
+msgstr ""
+"'偶奇'塗り潰しルールの代わりに、'ゼロ以外'塗りつぶしルールを"
+"用いたオプションが提供されます。つまり、形状が交差した時に"
+"通常では生成される透明領域が、作成されなくなります。"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:42
+msgid "Removes the anti-aliasing, to get a pixelized line."
+msgstr "アンチエイリアシングを外すと、ピクセル化された線となります。"
